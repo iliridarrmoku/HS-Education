@@ -1,0 +1,604 @@
+/*
+    ---Typography
+        FONT SIZE SYSTEM (px)
+            10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+    ---Colors
+        --Color Palete:
+            -Primary: 
+            -Accents:
+            -Greys:
+        --Tins & Shades:
+            -Tints: 
+            -Shades: 
+    ---Shadows
+    ---Border
+    ---White Space
+            SPACING-SYSTEM (px)
+            2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+            
+*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%; /* = 10px*/
+    font-family: 'Roboto', sans-serif
+}
+/* ----- Header Start ----- */
+.logo{
+    display: flex;
+    gap: 0.8rem;
+}
+
+.logo p{
+    font-size: 3.6rem;  
+}
+.logo img{
+    width: 3.6rem;
+    height: 3.6rem;
+    align-self: center;
+    color:#5cafcf;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem 3.2rem;
+    background-color: #2D3134;
+    color: #C4C5C3;
+}
+.nav-bar, .nav{
+    display: flex;
+    list-style: none;
+    font-size: 1.8rem;
+    font-weight: 500;
+    gap: 3.2rem;
+    align-items: center;
+}
+a.menu.first-menu{
+    color: #5cafcf;
+
+}
+
+.menu:link, .menu:visited{
+    text-decoration: none;
+    color: #C4C5C3;
+    transition: all 0.3s;
+}
+.menu:hover, .menu:active {
+    text-decoration: none;
+    color: #5cafcf;
+    border-bottom: 3px solid currentColor;
+}
+/* ----- Header End ----- */
+
+/* ----- Header Container Start */
+.header-2{
+    position: relative;
+    margin-bottom: 6.4rem;
+    height: 90vh;
+    background-image: linear-gradient(rgb(43,43,43,0.5), rgb(43,43,43,0.5)), url(img/3.kimberly-farmer-lUaaKCUANVI-unsplash.jpg);
+    background-size: cover;
+    color: white;
+}
+.header-container {
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    
+}
+
+.header-title {
+    font-size: 52px;
+    letter-spacing: -0.5px;
+    line-height: 1.05;
+    margin-bottom: 32px;
+}
+.header-description {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+
+}
+.btn {
+    border: 2px solid #C4C5C3;
+    padding: 6px 22px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+
+}
+.btn:hover {
+    background-color: #006ba1;
+    transition:all 0.3s;
+}
+/* ----- Header Container End */
+
+/* ----- Content Start */
+.content {
+    background-image: url(http://superwise.aislinthemes.com/app/uploads/sites/4/2018/04/pattern-new.jpg?id=1719) !important;
+}
+.welcome-title{
+    font-size: 3.6rem;
+    color: #242424;
+    font-weight: 400;
+    text-align: center;
+    padding: 1.2rem;
+    margin-top: 8rem;
+}
+.welcome-p{
+    font-size: 1.6rem;
+    color: #242424;
+    line-height: 2.4rem;
+    text-align: center;
+    margin-bottom: 1.6rem;
+}
+.border {
+    border-bottom: 5px solid #242424;
+    margin: 0 auto;
+    width: 10rem;
+}
+.school-content{
+    display: grid;
+    margin: 0 auto;
+    margin-top: 4.8rem;
+    max-width: 130rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr -1fr;
+    column-gap: 3.2rem;
+    row-gap: 1.6rem;
+}
+.school-content img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 3.2rem;
+}
+.first-p h3{
+    font-size: 20px;
+    color: #242424;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.first-p p{
+    font-size: 16px;
+    color: #242424;
+    line-height: 1.5;
+    text-align: left;
+    margin-top: 1.6rem;
+}
+.second-p h3{
+    font-size: 20px;
+    color: #242424;
+    line-height: 28px;
+    text-align: left;
+}
+.second-p p {
+    font-size: 16px;
+    color: #242424;
+    line-height: 1.5;
+    text-align: left;
+    margin-top: 1.6rem;
+}
+.third-p h3{
+    font-size: 20px;
+    color: #242424;
+    line-height: 28px;
+    text-align: left;
+}
+.third-p p {
+    font-size: 16px;
+    color: #242424;
+    line-height: 1.5;
+    text-align: left;
+    margin-top: 1.6rem;
+}
+/* ----- Content End */
+
+/* ---- Parent Content Start */
+
+.parent-content{
+    background-color: #f9f9f9;
+    margin-top: 9.6rem;
+}
+.pc-2 {
+    display: flex;
+    max-width: 130rem;
+    margin: 90px 120px;
+    justify-content: space-between;
+}
+.parent-content img {
+    width: 454px;
+    height: 361px;
+    justify-self: start;
+}
+
+.parent-content-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 4.8rem;
+    margin-right: 4.8rem;
+    line-height: 1.5;
+}
+
+.parent-content-1 h5 {
+    font-size: 20px;
+    color: #242424 ;
+    line-height: 1.5;
+    margin-bottom: 0.8rem;
+    
+}
+.parent-content-1 .position{
+    font-size: 16px;
+    color: #242424;
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 1.2rem;
+}
+.text { 
+    display: flex;
+    margin-left: -1.8rem;
+    line-height: 3rem;
+}
+.mark img {
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-right: 0.2rem;
+}
+.mark, .quote {
+    font-size: 16px;
+    color: #242424;
+    line-height: 3rem;
+    text-align: left;
+}
+.pr-1 {
+    height: 200px;
+}
+
+
+
+.classes {
+    background-color: #2D3134;
+    height: 113rem;
+}
+
+.classes .welcome-title{
+    font-size: 3.6rem;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 9.6rem;
+    padding-top: 8rem;
+}
+.classes .welcome-p{
+    font-size: 1.6rem;
+    color: white;
+    line-height: 2.4rem;
+    text-align: center;
+    margin-bottom: 1.6rem;
+}
+.classes .border {
+    border-bottom: 5px solid white;
+    margin: 0 auto;
+    width: 10rem;
+}
+.classes-content {
+    display: grid;
+    margin: 0 auto;
+    margin-top: 4.8rem;
+    max-width: 130rem;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr 24rem;
+}
+.classes-content img {
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid #fff;
+
+}
+.art-content {
+    background-color: white;
+    padding: 28px 30px 17px;
+    border-top: 1px solid #dcdfe8;
+    border-left: 1px solid #dcdfe8;
+}
+.art-content h3 {
+    font-size: 20px;
+    line-height: 28px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 12px;
+}
+.art-content ul li {
+    display: flex;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 7px 0;
+    list-style: none;
+    font-size: 16px;
+    line-height: 22px;
+    color: #6e6e71
+}
+.art-content a {
+    background-color: #2690b1;
+    overflow: hidden;
+    padding: 10px 17px;
+    color: #fff;
+    display: block;
+    float: left;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: 1.6rem;
+}
+
+.art-content a:hover {
+    background-color: #006ba1;
+    transition: all 0.3s;
+}
+.art-content ul li svg {
+    margin-top: 2px;
+    width: 16px;
+    margin-right: 3px;
+}
+.classes .border-2 {
+    margin-top: 4.8rem;
+}
+
+.school-data {
+    max-width: 130rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 12.8rem;
+}
+.school-data svg {
+    color: white;
+    width: 60px;
+    margin: 0 auto;
+    margin-top: 3.2rem;
+
+}
+.school-data span {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+.school-data p {
+    font-size: 16px;
+    color: rgba(255,255,255,0.57);
+    line-height: 24px;
+    text-align: center;
+}
+/* ---- Parent Content Start */
+
+/* ---- Teacher Content */
+.teachers {
+    background-image: url(http://superwise.aislinthemes.com/app/uploads/sites/4/2018/03/bg-01.jpg?id=1396);
+    padding-top: 1px;
+    height: 100vh;
+}
+.teacher-content {
+    display: grid;
+    width: 130rem;
+    margin: 0 auto;
+    margin-top: 3.2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2.4rem;    
+}
+
+.teacher-content img {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin-left: 4rem;
+}
+
+.teacher-content h3 {
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 8px;
+    margin-left: 3.2rem;
+    margin-top: 8px;
+}
+.teacher-content .teacher-name {
+    font-size: 16px;
+    color: #242424;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 8px;
+}
+.teacher-content p {
+    font-weight: 300;
+    font-style: normal;
+    color: #636364;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.first-teacher { 
+    padding-right: 15%;
+    padding-bottom: 35px;
+    padding-left: 15%;
+    padding-top: 35px;
+    background-color: rgba(255,255,255,0.92);
+}
+.teacher-infos {
+    margin-left: 2.4rem;
+}
+.teacher-icons {
+    margin-top: 24px;
+}
+
+.teacher-icons svg {
+    margin-right: 8px;
+}
+
+
+
+/* Call to action */
+
+.container {
+    padding-top: 1px;
+    
+}
+
+.container h1 {
+    font-size: 3.6rem;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    padding: 1.2rem;
+    margin-top: 3.2rem;
+}
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+    max-width: 130rem;
+}
+.join-form {
+    width: 75rem;
+    padding: 8.4rem;
+}
+
+.contact-form {
+    padding: 40px 50px 50px;
+    background: #fff;
+    margin-left: 3.2rem;
+    height: 47rem;
+}
+
+
+.contact-form form input {
+    width: 100%;
+    background: #fff;
+    border: none;
+    height: 50px;
+    padding: 0px 0;
+    text-transform: none;
+    margin: 10px 0;
+    border-bottom: solid #222 1px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contact-form form textarea {
+    width: 100%;
+    background: #fff;
+    border: none;
+    min-height: 90px;
+    padding: 15px 0;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: solid #222 1px;
+}
+
+.contact-form form input[type="submit"] {
+    background-color: rgb(38, 144, 177);
+    overflow: hidden;
+    padding: 10px 17px;
+    color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-top: 1.6rem;
+}
+
+.contact-form form input[type="submit"]:hover,
+.contact-form form input[type="submit"]:focus {
+    background-color: #006ba1;
+    transition: all 0.3s;
+}
+
+
+.photo-address img{
+    padding-top: 8.4rem;
+    height: 555px;
+    width: 600px;
+}
+
+
+
+/* // FOOTER */
+
+
+footer{
+    padding: 4.8rem 0;
+    display: flex;
+    
+    justify-content: space-between;
+  }
+  footer h2, 
+  footer p, 
+  footer ul, 
+  footer a{
+    font-weight:normal; 
+    list-style:none; 
+    line-height:normal;
+    text-decoration: none;
+  }
+  footer h2{
+    font-size:20px; 
+    font-weight:normal; 
+    margin-bottom:10px; 
+    padding-bottom:8px; 
+    border-bottom:1px dotted #999999;
+  }
+  footer li{
+    margin-bottom:1.2rem;
+    font-size: 1.6rem;
+  }
+  footer .footbox{
+    display:block; 
+    float:left; 
+    width:180px; 
+    margin:0 80px 0 0; 
+    padding:0;
+}
+
+  footer .last{
+    margin:0;
+  }
+  
+  .copyright{
+    padding:15px 0;
+    font-size: 1.6rem;
+  }
+  
+  .col4{
+    color:#CCCCCC; 
+    background-color:#2A2B2F;
+  }
+  .col4 a{
+    color:#2690b1; 
+    background-color:#2A2B2F;
+  }
+  .col5 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .col5, .col5 a{
+    color:#666666; 
+    background-color: #242424;
+  }
+  
+  footer, 
+  .copyright{
+    width: 130rem;
+    margin:0 auto;
+  }
+  .copyright {
+      text-align: center;
+  }
+  
+  
+  
+  
+			
+		
+	
+
