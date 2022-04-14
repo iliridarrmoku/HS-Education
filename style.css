@@ -351,7 +351,8 @@ a.menu.first-menu{
     max-width: 130rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-left: 12.8rem;
+    margin: 0 auto;
+    
 }
 .school-data svg {
     color: white;
@@ -455,8 +456,9 @@ a.menu.first-menu{
 .row {
     display: grid;
     grid-template-columns: 50% 50%;
-    column-gap: 150px;
-    max-width: 130rem;
+    column-gap: 60px;
+    max-width: 150rem;
+    margin: 0 auto;
 }
 .join-form {
     width: 65rem;
@@ -520,8 +522,8 @@ a.menu.first-menu{
 .map {
     padding-top: 8.4rem;
     padding-right: 8.4rem;
-    margin-left: 4.4rem;
-    width: 100%;
+    /* margin-left: 4.4rem; */
+    width: 85%;
     height: 100%;
 }
 
