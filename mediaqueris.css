@@ -91,7 +91,7 @@
     }
 
     .row {
-        width: 130rem;
+        width: 120rem;
         margin: 0 auto;
         column-gap: 60px;
     }
@@ -166,7 +166,7 @@
     }
 
     .row {
-        width: 110rem;
+        width: 98rem;
     }
     .join-form {
         width: 55rem;
@@ -189,12 +189,19 @@
         }
         .header-container {
             position: absolute;
-            top: 14%;
+            top: 20%;
             left: 60%;
         }
+        .header-title {
+            font-size: 42px;
+        }
+        .header-description {
+            font-size: 17px;
+        }
+        .btn {
+            font-size: 17px;
+        }
         .school-content {
-            display: flex;
-            flex-direction: column;
             width: 80rem;
         }
         .first-p {
@@ -204,23 +211,25 @@
             margin-bottom: 10.6rem;
         }
         .third-p h3 {
-            margin-top: -51px;
+            margin-top: -18px;
         }
         .third-p p {
-            margin-top: -3.4rem;
+            margin-top: -1.4rem;
         }
         .pc-2 {
             width: 80rem;
-            display: flex;
-            flex-direction: column;
+            /* display: flex;
+            flex-direction: column; */
         }
-        .parent-1 {
-            margin-top: 16px;
+        .pc-2 .pc-2-img {
+            width: 260px;
+            height: 330px;
+            justify-self: start;
         }
+        
         .parent-content-1 {
-            flex-direction: column;
-            margin-left: -0.2rem;
-            margin-top: 16px;
+            /* flex-direction: column; */
+            margin-left: 3.8rem;
         }
         .row {
             width: 97em;
@@ -232,72 +241,78 @@
             width: 100rem;
         }
         .classes {
-            height: 475rem;
+            height: 120rem;
         }
         .classes-content {
-            display: flex;
-            flex-direction: column;
-            width: 50rem;
-            row-gap: 50px;
+            width: 80rem;
         }
         .first-class {
-            grid-template-rows: 1fr 220px;
+            grid-template-rows: 1fr 300px;
+        }
+        .first-class-data {
+            padding: 28px 13px 17px;
         }
         .second-class {
             display: grid;
-            grid-template-rows: 1fr 220px;
+            grid-template-rows: 1fr 300px;
         }
         .third-class {
             display: grid;
-            grid-template-rows: 1fr 220px;
+            grid-template-rows: 1fr 300px;
 
         }
         .forth-class {
             display: grid;
-            grid-template-rows: 1fr 220px;
+            grid-template-rows: 1fr 300px;
 
         }
         .school-data {
-            display: flex;
-            flex-direction: column;
-            row-gap: 20px;
+            width: 80rem;
+        }
+
+        .school-data svg {
+            color: white;
+            width: 40px;
+        }
+        .school-data span {
+            font-size: 45px;
         }
         .teachers {
-            height: 285rem;
+            height: 170rem;
         }
         .teacher-content {
-            width: 50rem;
-            display: flex;
-            flex-direction: column;
+            width: 80rem;
+            grid-template-columns: repeat(2,1fr);
             row-gap: 50px;
-        }
-        .teacher-content {
-            width: 50rem;
         }
         .first-teacher {
             padding-right: 25%;
             padding-bottom: 35px;
-            padding-left: 28%;
+            padding-left: 24%;
             padding-top: 34px;
         }
         .teacher-content img {
             width: 125px;
             height: 125px;
-            margin-left: 3rem;
+            margin-left: 2rem;
         }
         .row {
-            display: flex;
-            flex-direction: column;
+            width: 80rem;
+            column-gap: 30px;
         }
         .join-form {
-            width: 50rem;
+            width: 40rem;
             align-self: center;
+            
+        }
+        .contact-form {
+            margin-left: 0;
         }
         .map {
             padding-top: 8.4rem;
-            margin-left: 9.4rem;
-            width: 58rem;
-            height: 64rem;
+            margin-left: -1.6rem;
+            width: 47rem;
+            height: 70rem;
             align-self: center;
         }
         footer,
@@ -376,231 +391,193 @@
           
         .header-container {
             position: absolute;
-            top: 5%;
-            left: 65%;
+            top: 14%;
+            left: 66%;
+        }
+
+        .pc-2 {
+            display: flex;
+            flex-direction: column;
+            width: 75rem;
+        }
+        .pc-2 .pc-2-img {
+            width: 400px;
+            height: 370px;
+            align-self: center;
+        }
+        .school-content {
+            width: 75rem;
+        }
+        .pc-1 {
+            margin-top: 24px;
+        }
+        .classes{
+            height: 200rem;
+        }
+        .classes-content {
+            width: 75rem;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 50px;
+        }
+        .first-class-data {
+            padding: 28px 30px 17px;
+        }
+        .art-content {
+            height: 515px;
         }
         .school-data {
-            width: 50rem;
+            width: 75rem;
+        }
+        .teacher-content {
+            width: 75rem;
         }
         footer, .copyright {
-            width: 89%;
+            width: 75rem;
             grid-template-columns: repeat(2,1fr);
             row-gap: 20px;
             justify-items: center;
         }
+        .row {
+            width: 75rem;
+            column-gap: 25px;
+        }
+        .map {
+            width: 41rem;
+            height: 523px;
+        }
+
+        footer .footbox {
+            margin: 0 50px 0 0;
+        }
         
         
     }
 
-    @media (max-width:530px) {
+    @media (max-width:650px) {
+
         .header-container {
-            left: 33%;
+            position: absolute;
+            top: 21%;
+            left: 26%;
         }
         .school-content {
-            width: 43rem;
+            width: 55rem;
+            display: flex;
+            flex-direction: column;
         }
-
-        .third-p h3 {
-            margin-top: -32px;
-        }
-
-        .third-p p {
-            margin-top: -1.4rem;
-        }
-        .pc-2 .pc-2-img {
-            width: 339px;
-            height: 327px;
-}
         .pc-2 {
-            width: 43rem;
+            width: 55rem;
         }
-        .classes {
-            height: 448rem;
-        }
+
         .classes-content {
-            width: 43rem;
+            width: 55rem;
         }
+        .art-content {
+            height: 465px;
+        }
+
         .school-data {
-            width: 43rem;
+            width: 55rem;
+            grid-template-columns: repeat(2,1fr);
+        }
+        .teachers {
+            height: 290rem;
         }
         .teacher-content {
-            width: 43rem;
+            width: 42rem;
+            display: flex;
+            flex-direction: column;
         }
         .row {
-            width: 43em;
+            width: 55rem;
+            display: flex;
+            flex-direction: column;
         }
         .join-form {
-            width: 43rem;
+            width: 41rem;
         }
         
         .map {
-            padding-top: 8.4rem;
-            margin-left: 8.4rem;
-            width: 51rem;
-            height: 64rem;
-            align-self: center;
-        }
-
-        footer, .copyright {
-            flex-direction: column;
-            margin: 0 auto;
-            width: 150px;
+             width: 48rem;
+             height: 48rem;
+             margin-left: 8.4rem;
         }
         
-    }
-
-
-
-    /* .parent-content img {
-        width: 392px;
-        height: 357px;
-        justify-self: start;
-    }
-
-    .parent-content-1 {
-        margin-left: 3.8rem;
-        margin-right: -0.2rem;
-    } */
-
-    /* .pc-2 {
-        margin: 90px 20px;
-    }
-    .classes {
-        height: 126rem;
-    }
-    .school-data {
-        margin-left: 2.8rem;
-    }
-    .row {
-        max-width: 117rem;
-        margin-left: -43px;
+        footer, .copyright {
+            width: 50rem;
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            align-items: center;
+        }
 
     }
-    .teacher-content {
-        width: 130rem;
+    @media (max-width:426px) {
+        .header-container {
+            top: 60px;
+        }
+        .school-content {
+            width: 35rem;
+        }
+        .pc-2 {
+            width: 35rem;
+        }
+        .pc-2 .pc-2-img {
+            width: 270px;
+            height: 270px;
+            align-self: center;
+        }
+        .pc-1 {
+            flex-direction: column;
+        }
+        .teacher-1 {
+            margin-top: 25px;
+            margin-left: -30px;
+        }
+        .classes {
+            height: 405rem;
+        }
+        .classes-content {
+            width: 35rem;
+            display: flex;
+            flex-direction: column;
+        }
+        .art-content {
+            height: 510px;
+        }
+        .school-data {
+            width: 35rem;
+            display: flex;
+            flex-direction: column;
+        }
+        .teachers {
+            height: 290rem;
+        }
+        .teacher-content {
+            width: 35rem;
+        }
+        .first-teacher {
+            padding-right: 21%;
+            padding-bottom: 35px;
+            padding-left: 20%;
+            padding-top: 34px;
+        }
+        .row {
+            width: 35rem;
+        }
+        .join-form {
+            width: 35rem;
+        }
+        .map {
+            width: 34rem;
+            height: 34rem;
+            margin-left: 4.4rem;
+        }
+        footer, .copyright {
+            width: 35rem;
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            align-items: center;
+        }
     }
-    footer, .copyright {
-        width: 130rem;
-        margin: 0 auto;
-    } */
-}
-
-
-/* @media (min-width: 75em) {
-    .header-2 {
-        height: 96vh;
-    }
-    .header-container {
-        top: 46%;
-        left: 51%;
-    }
-    .header-title {
-        font-size: 62px;
-    }
-    .header-description {
-        font-size: 32px;
-    }
-    .btn {
-        font-size: 32px;
-    }
-}
-
-@media (max-width: 75em) {
-    html {
-        font-size: 47%;
-    }
-    .header-container {
-        position: absolute;
-        top: 20%;
-        left: 59%;
-        padding-right: 10rem;
-    }
-
-    .school-content {
-        max-width: 120rem;
-    }
-    .pc-2 {
-        margin: 90px 33px;
-    }
-    .classes {
-        height: 122rem;
-    }
-    .classes-content {
-        display: grid;
-        margin: 0 auto;
-        margin-top: 4.8rem;
-        max-width: 120rem;
-        grid-template-columns: 25% 25% 25% 25%;
-        grid-template-rows: 1fr 33rem;
-    }
-    .school-data {
-        max-width: 120rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        margin-left: 6.8rem;
-    }
-    .teacher-content img {
-        border-radius: 50%;
-        width: 140px;
-        height: 140px;
-        margin-left: 3rem;
-    }
-
-    .teacher-content {
-        width: 120rem;
-    }
-    .teacher-content img {
-        border-radius: 50%;
-        width: 140px;
-        height: 140px;
-        margin-left: 1rem;
-    }
-
-    .row {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 24px;
-        max-width: 120rem;
-    }
-
-    .contact-form {
-        padding: 40px 50px 50px;
-        background: #fff;
-        margin-left: 0.2rem;
-        height: 61rem;
-    }
-    .photo-address img {
-        padding-top: 8.4rem;
-        height: 523px;
-        width: 390px;
-    }
-
-    footer, .copyright {
-        width: 120rem;
-        margin: 0px auto;
-    }
-}
-
-@media (max-width: 768px) {
-
-    .header-container {
-        position: absolute;
-        top: 6%;
-        left: 66%;
-        padding-right: 10rem;
-    }
-    .school-data {
-        margin-left: 2.8rem;
-    }
-    .photo-address img {
-        padding-top: 8.4rem;
-        height: 523px;
-        width: 408px;
-    }
-    .contact-form {
-        margin-left: -3.8rem;
-    }
-    .join-form {
-        width: 68rem;
-    }
-} */
