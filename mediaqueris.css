@@ -323,8 +323,11 @@
     @media (max-width:768px) {
 
 
-        .header {
+        header {
             position: relative;
+        }
+        .logo p {
+            align-self: center;
         }
 
         .nav-bar {

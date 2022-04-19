@@ -10,26 +10,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+<script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
 </head>
 <body>
-  <header class="open-nav">
+  <header id = "header">
     <div class="header">
         <div class="logo">
-            <img src="https://img.icons8.com/ios/50/4a90e2/education.png"/>
+            <img src="https://img.icons8.com/ios/50/4a90e2/education.png" alt="school-logo"/>
             <p>HS Education</p>
         </div>
         <div class="nav-bar">
-            <div class="nav">
+            <ul class="nav">
                 <li><a href="#" class="menu first-menu">Home</a></li>
-                <li><a href="#" class="menu">About</a></li>
-                <li><a href="#" class="menu">Programs</a></li>
-                <li><a href="#" class="menu">News</a></li>
-                <li><a href="#" class="menu">Contact</a></li>
-            </div>
+                <li><a href="#content" class="menu">About</a></li>
+                <li><a href="#programs" class="menu">Programs</a></li>
+                <li><a href="#content" class="menu">News</a></li>
+                <li><a href="#contact" class="menu">Contact</a></li>
+            </ul>
         </div>
+
         <button class="mobile-nav">
-          <ion-icon class="mobile-nav-icon md hydrated" name="menu-outline"></ion-icon>
+          <!-- <ion-icon class="mobile-nav-icon md hydrated" name="menu-outline"></ion-icon>
           <ion-icon class="mobile-nav-icon md hydrated" name="close-outline"></ion-icon>
+        -->
+        <ion-icon class="mobile-nav-icon" name="menu-outline"></ion-icon>
+        <ion-icon class="mobile-nav-icon" name="close-outline"></ion-icon>
         </button>
       </div>
     </header>
@@ -43,7 +58,7 @@
         
     </div>
 </div>
-    <div class="content">
+    <div class="content" id="content">
         <h1 class="welcome-title">Welcome To Our School </h1>
         <p class="welcome-p">Our school is welcoming</p>
         <div class="border"></div>
@@ -63,7 +78,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolore reiciendis minima inventore debitis? Inventore eos, dicta eveniet iusto nobis unde, ea reiciendis tempore deserunt quae sunt, fugit ipsam harum. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             </div>
             <div class="third-p">
-              <img src="img/porter-raab-gnj9vj--FRY-unsplash.jpg" alt="graduates">
+              <img src="img/porter-raab-gnj9vj--FRY-unsplash.jpg" alt="school">
                 <h3>High School Accredited</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit repellat corporis beatae iste provident numquam necessitatibus, maro dolor labore placeat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur quidem provident necessitatibus architecto blanditiis quia cum a temporibus illum dolorem?</p>
             </div>
@@ -71,14 +86,14 @@
     </div>
     <div class="parent-content">
         <div class="pc-2">
-        <img src="http://superwise.aislinthemes.com/app/uploads/sites/4/2018/03/girls-02.jpg" class="pc-2-img">
+        <img src="http://superwise.aislinthemes.com/app/uploads/sites/4/2018/03/girls-02.jpg" class="pc-2-img" alt="colleges">
         <div class="parent-content-1 pc-1">
           <div class="parent-1">
             <h5>Tyra Walker</h5>
             <p class="position">&ndash; Parent</p>
             <div class="text">
                 <div class="mark">
-                  <img class="q-mark" src="https://img.icons8.com/stickers/100/000000/quote-left.png"/>
+                  <img class="q-mark" src="https://img.icons8.com/stickers/100/000000/quote-left.png" alt="marks"/>
                 </div>
                 <p class="quote">It's great working with you. I appreciate your response to all my emails and getting me required documentation for my students that transfer to Excel or are coming back to me from Excel. I know when I email you, I will get a speedy response.</p>
             </div>
@@ -89,7 +104,7 @@
             <p class="position">&ndash; English Teacher</p>
             <div class="text">
                 <div class="mark">
-                  <img src="https://img.icons8.com/stickers/100/000000/quote-left.png"/>
+                  <img src="https://img.icons8.com/stickers/100/000000/quote-left.png" alt="marks"/>
                 </div>
                 <p class="quote">Mrs. Harrison, sticks out in my mind. She is a very good teacher. You guys need to always keep her around. She really helped and encouraged me. Every time I needed help, she worked with me and helped me until I got it right.</p>
             </div>
@@ -101,7 +116,7 @@
 
     </div>
 
-    <div class="classes">
+    <div class="classes" id="programs">
       <div class="classes-1">
         <h1 class="welcome-title">Our Classes</h1>
         <p class="welcome-p">Our school is welcoming</p>
@@ -262,7 +277,7 @@
 
         <div class="teacher-content">
             <div class="first-teacher">
-                <img src="http://superwise.aislinthemes.com/app/uploads/sites/4/2018/04/01-staff.jpg"/>
+                <img src="http://superwise.aislinthemes.com/app/uploads/sites/4/2018/04/01-staff.jpg" alt="studying"/>
                 <h3>Tyra Walker</h3>
                 <div class="teacher-infos">
                 <p class="teacher-name">&ndash; Math teacher</p>
@@ -278,7 +293,7 @@
               </div>
             </div>
             <div class="first-teacher">
-                <img src="http://superwise.aislinthemes.com/app/uploads/sites/4/2018/04/staff-02.jpg"/>
+                <img src="http://superwise.aislinthemes.com/app/uploads/sites/4/2018/04/staff-02.jpg" alt="teacher"/>
                 <h3>Tyra Walker</h3>
                 <div class="teacher-infos">
                 <p class="teacher-name">&ndash; Math teacher</p>
@@ -294,7 +309,7 @@
               </div>
             </div>
             <div class="first-teacher">
-                <img src="http://superwise.aislinthemes.com/app/uploads/sites/4/2018/04/staff-03.jpg"/>
+                <img src="http://superwise.aislinthemes.com/app/uploads/sites/4/2018/04/staff-03.jpg" alt="teacher"/>
                 <h3>Tyra Walker</h3>
                 <div class="teacher-infos">
                 <p class="teacher-name">&ndash; Math teacher</p>
@@ -310,7 +325,7 @@
                 </div>
             </div>
             <div class="first-teacher">
-                <img src="http://superwise.aislinthemes.com/app/uploads/sites/4/2018/04/staff-04.jpg"/>
+                <img src="http://superwise.aislinthemes.com/app/uploads/sites/4/2018/04/staff-04.jpg" alt="teacher"/>
                 <h3>Tyra Walker</h3>
                 <div class="teacher-infos">
                 <p class="teacher-name">&ndash; Math teacher</p>
@@ -329,7 +344,7 @@
     </div>
 
 <!-- Call to action -->
-    <div style="background-color: #2A2B2F;">
+    <div style="background-color: #2A2B2F;" id="contact">
       <div class="container">
         <h1>Contact Us</h1>
          <div class="row">
@@ -417,5 +432,6 @@
     </div>
   </div>
 
+  <script src="custom.js"></script>
 </body>
 </html>

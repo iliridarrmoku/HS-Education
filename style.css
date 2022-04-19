@@ -27,7 +27,8 @@
 
 html {
     font-size: 62.5%; /* = 10px*/
-    font-family: 'Roboto', sans-serif
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 /* ----- Header Start ----- */
 .logo{
@@ -84,7 +85,7 @@ a.menu.first-menu{
   .mobile-nav .mobile-nav-icon {
     height: 3.2rem;
     width: 3.2rem;
-    color: #333;
+    color: #5cafcf;
   }
   .mobile-nav-icon[name = "close-outline"] {
     display: none;
