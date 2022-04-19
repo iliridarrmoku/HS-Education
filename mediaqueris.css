@@ -115,7 +115,7 @@
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1081px) {
     .mobile-nav {
         display: none;
       }
@@ -124,8 +124,8 @@
     }
     .header-container {
         position: absolute;
-        top: 27%;
-        left: 47%;
+        top: 20%;
+        left: 61%;
     }
     .school-content {
         width: 110rem;
@@ -179,7 +179,7 @@
         width: 110rem;
     }
 
-    @media (max-width: 860px) {
+    @media (max-width: 882px) {
         .mobile-nav {
             display: none;
           }
